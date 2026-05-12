@@ -6,7 +6,9 @@ public class AdapterMain {
 		FileLogger fileLogger = new FileLogger();
 
 		Logger logger = new FileLoggerAdapter(fileLogger);
+		Logger logger2 = new ConsoleLoggerAdapter();
 
-		logger.log("message");
+		logger.log("Payment processed");
+		logger2.log("Payment processed");
 	}
 }
