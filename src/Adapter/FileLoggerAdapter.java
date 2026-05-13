@@ -1,4 +1,4 @@
-package Adapter;
+package adapter;
 
 public class FileLoggerAdapter implements Logger {
 	private FileLogger fileLogger;

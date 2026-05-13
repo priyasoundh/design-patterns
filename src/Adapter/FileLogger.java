@@ -1,4 +1,4 @@
-package Adapter;
+package adapter;
 
 public class FileLogger {
 	public void writeToFile(String filename, String content) {
